@@ -4,13 +4,13 @@ if a==b:
     c=int(input("Еще введите число В, поскольку А =  Б "))
     d = a + c
     e = b - c
-if a > b:
+elif a > b:
     print("Свершилось!")
-if b > a:
+elif b > a:
     print("Да ну!")
 if a == b:
     print("А если так?")
-    if d > e:
+elif d > e:
         print("Свершилось!")
-    if d < e:
+elif d < e:
         print("Да ну!")
